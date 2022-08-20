@@ -30,7 +30,7 @@ public class Zadatak2 {
 //
 		Facebook first = new Facebook();
 		first.postedUser = "Jim Carrey";
-		first.recievedUser = "Aleksandar Vucic";
+		first.receivedUser = "Aleksandar Vucic";
 		first.opinion = "Liar, Liar";
 		first.likes = 7821;
 		first.shares = 71;
@@ -45,7 +45,7 @@ public class Zadatak2 {
 		
 		Facebook second = new Facebook();
 		second.postedUser = "Ivica Dacic";
-		second.recievedUser = "Jovana Jeremic";                                                                                                                                                                                                                                                                                                                                                                                                                                     
+		second.receivedUser = "Jovana Jeremic";                                                                                                                                                                                                                                                                                                                                                                                                                                     
 		second.opinion = "Mrsavi ljudi su zli ljudi";
 		second.likes = 6;
 		second.shares = 701;

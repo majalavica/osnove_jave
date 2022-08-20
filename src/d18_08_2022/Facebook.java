@@ -27,14 +27,14 @@ public class Facebook {
 //		Likes 3 | Shares 1
 
 	public String postedUser;
-	public String recievedUser;
+	public String receivedUser;
 	public String opinion;
 	public int likes;
 	public int shares;
 
 //	public void print() {
 //		System.out.println("User who posted: " + this.postedUser);
-//		System.out.println("User who recieved: " + this.recievedUser);
+//		System.out.println("User who received: " + this.recievedUser);
 //		System.out.println("Announcement: " + this.opinion);
 //		System.out.println("Liked - " + this.likes + " people");
 //		System.out.println("Shared - " + this.shares + " people");
@@ -50,11 +50,13 @@ public class Facebook {
 			this.likes--;
 		}
 	}
+
 	public void share() {
 		this.shares++;
 	}
+
 	public void print() {
-		System.out.println(this.postedUser + " >>> " + this.recievedUser);
+		System.out.println(this.postedUser + " >>> " + this.receivedUser);
 		System.out.println(this.opinion);
 		System.out.println("Likes " + this.likes + " | Shares " + this.shares);
 	}
