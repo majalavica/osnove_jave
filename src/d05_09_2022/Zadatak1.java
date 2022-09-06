@@ -26,8 +26,6 @@ public class Zadatak1 {
 //
 //			U glavnom programu kreirati jednog magacionera i jednog menadzera, postaviti sektore u kojima rade i 
 //			ispisati platu za svakog
-
-		ArrayList<Sektor> sektori = new ArrayList<Sektor>();
 		
 		Sektor prvi = new Sektor("Popis robe", 70000);
 		Sektor drugi = new Sektor("Utovar robe", 150000);
